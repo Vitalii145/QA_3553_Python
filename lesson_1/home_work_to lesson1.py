@@ -34,3 +34,20 @@
 #         print(word[::-1])
 #
 # print(print_words_reverse_in_column("Hello my nice World"))
+# 3
+# def print_substring_reverse(s,start,finfsh):
+#     if s is None or s.strip() == "":
+#         print("Wrong args")
+#         return
+#     if start<0 or finfsh>=len(s) or start>finfsh:
+#         print("Wrong args")
+#         return
+#     begining = s[:start]
+#     midle_reversed = s[start:finfsh+1][::-1]
+#     end = s[finfsh+1:]
+#     print(begining+midle_reversed+end)
+#
+# print_substring_reverse("Shalom",1,3)
+# print_substring_reverse(None,2,4)
+# print_substring_reverse("Hi",1,3)
+
