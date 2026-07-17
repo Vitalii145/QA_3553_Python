@@ -19,7 +19,7 @@ def is_valid_point(point):
     if not isinstance(point[1], (int, float)):
         return False
     return True
-print(is_valid_point((3, 5)))
+print(is_valid_point((2, 5)))
 print(is_valid_point((3, "5")))
 print(is_valid_point([3, 5]))
 print(is_valid_point((1, 2, 3)))
