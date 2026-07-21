@@ -1,2 +1,4 @@
 Milk
 Bread
+Apple
+Coffee
