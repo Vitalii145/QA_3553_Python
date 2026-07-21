@@ -3,7 +3,7 @@
 #     with open("shopping.txt", "w", encoding="utf-8") as file:
 #         for item in items:
 #             file.write(item + "\n")
-# save_shopping_list(["Milk", "Bread"])
+# save_shopping_list(["Milk", "Bread", "Apple", "Coffee"])
 # 2
 # import csv
 #
@@ -15,6 +15,8 @@
 #             print(f"Users: {row['name']} ({row['email']}){row['role']} ")
 #
 # read_students("users.csv")
+from pathlib import Path
+
 
 # 3
 # import json
@@ -32,3 +34,11 @@
 # save_profile("Maria", 30, "Haifa")
 
 # 4
+def create_reports_folder():
+    reports_dir = Path("reports_1")
+    reports_dir.mkdir(exist_ok=True)
+    result_file = reports_dir/"result.txt"
+    with open(result_file, "w",encoding="utf-8") as file:
+        file.write("Homework completed successfully!")
+
+create_reports_folder()
