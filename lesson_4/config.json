@@ -1,0 +1,5 @@
+{
+    "base_url": "https://api.github.com/",
+    "timeout": 10,
+    "retries": 5
+}

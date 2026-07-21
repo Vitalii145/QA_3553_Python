@@ -1,0 +1,10 @@
+test_logout: success
+test_login: success
+test_registration: fail
+test_logout: success
+test_login: success
+test_registration: fail
+test_logout: success
+test_login: success
+test_registration: fail
+test_logout: success
